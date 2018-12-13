@@ -10,21 +10,23 @@ class Media extends PureComponent {
 		this.state = {
 			author: 'Título'
 		}
-		this.handleClick = this.handleClick.bind(this);
+		//this.handleClick = this.handleClick.bind(this);
 	} 
 
+	/*
+	Ahora viene heradado desde Categories
 	handleClick(event) {
 		console.log(this.props.cover);
 		this.setState({
 			author: this.props.title
 		})
 	}
-
+	*/
 	
 
 	render() {
 		return (
-			<div className="Media" onClick={this.handleClick}>
+			<div className="Media" onClick={this.props.handleClick}>
 				<div className="Media-cover">
 					<img 
 						src={this.props.cover}

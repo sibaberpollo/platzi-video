@@ -5,7 +5,7 @@ import Home from'../pages/containers/home';
 import data from '../api.json'; 
 //console.log("Hola Sapo");
 
-const container = document.getElementById('app');
+const homeContainer = document.getElementById('home-container');
 
 
-render(<Home data={data} />, app);
+render(<Home data={data} />, homeContainer);
