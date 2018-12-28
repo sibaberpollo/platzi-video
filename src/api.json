@@ -6,7 +6,7 @@
       "title": "Destacados",
       "playlist": [
         {
-          "title": "¿Qué es responsive Design?",
+          "title": "¿Que es responsive Design?",
           "author": "LeonidasEsteban",
           "type": "video",
           "cover": "./images/covers/responsive.jpg",
@@ -22,7 +22,7 @@
           "id": 2
         },
         {
-          "title": "Qué es Bitcoin",
+          "title": "¿Que es Bitcoin?",
           "author": "Yograterol",
           "type": "video",
           "cover": "./images/covers/bitcoin.jpg",
@@ -30,7 +30,7 @@
           "id": 3
         },
         {
-          "title": "Que pasó con HTML5",
+          "title": "¿Que pasó con HTML5?",
           "author": "Freddier",
           "type": "video",
           "cover": "./images/covers/html5.jpg",

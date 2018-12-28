@@ -22,9 +22,12 @@ class Media extends PureComponent {
 		})
 	}
 	*/
-	
 
 	render() {
+		if(this.props.title.search(this.props.qvalue) == -1){
+			return "";
+		}
+		//console.log(this.props.title + "xxx" + this.props.qvalue);
 		return (
 			<div className="Media" onClick={this.props.handleClick}>
 				<div className="Media-cover">
